@@ -19,3 +19,14 @@ dependency-cruiserのサンプル
   node app/dist/content_scripts.js
   ```
   - 結果が表示されます。
+
+- dependency-cruiser
+ - コンテナ内で
+  install
+  ```terminal
+  docker-compose run --rm app /bin/sh -c  "cd app && npm i --save-dev dependency-cruiser
+  ```
+  config init
+  ```terminal
+  docker-compose run --rm app /bin/sh -c  "cd app && npm npx depcruise --init
+  ```
