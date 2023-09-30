@@ -23,7 +23,7 @@ jobs:
         node-version: 18
 
     - name: Install dependencies
-      run: npm ci
+      run: pwd && npm ci
 
     - name: Run dependency test
       run: npx depcruise src 
