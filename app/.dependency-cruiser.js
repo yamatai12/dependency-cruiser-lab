@@ -186,7 +186,25 @@ module.exports = {
           'npm-peer'
         ]
       }
-    }
+    },
+    {
+      name: `1. '_'から始まるディレクトリ内部のファイルは、同ディレクトリ内のファイルまたは、直上のディレクトリのファイルからのみimport可能`,
+      severity: 'error',
+      from: { path: ['(.*)\\/.*\\.ts'], pathNot: ['.*\\.spec\\.ts$'] },
+      to: {
+        path: ['_\\w+\\/\\w+\\.ts$'],
+        pathNot: ['$1\\/_\\w+\\/\\w+\\.ts$', '$1\\/\\w+\\.ts$'],
+      },
+    },
+    {
+      name: `2. '_'から始まるファイルは同階層に置かれたファイルからのみimport可能`,
+      severity: 'error',
+      from: { path: ['(.*)\\/.*\\.ts$'], pathNot: ['.*\\.spec\\.ts$'] },
+      to: {
+        path: ['.*\\/_\\w+.ts$'],
+        pathNot: ['$1\\/_\\w+.ts$'],
+      },
+    },
   ],
   options: {
 
