@@ -21,7 +21,6 @@ dependency-cruiserのサンプル
   - 結果が表示されます。
 
 - dependency-cruiser
- - コンテナ内で
   install
   ```terminal
   docker-compose run --rm app /bin/sh -c  "cd app && npm i --save-dev dependency-cruiser
@@ -29,4 +28,12 @@ dependency-cruiserのサンプル
   config init
   ```terminal
   docker-compose run --rm app /bin/sh -c  "cd app && npm npx depcruise --init
+  ```
+  validate
+  ```terminal
+  npx depcruise src
+  ```
+  visualize dependency-graph
+  ```terminal
+  npx depcruise src --include-only "^src" --output-type dot | dot -T svg >
   ```
