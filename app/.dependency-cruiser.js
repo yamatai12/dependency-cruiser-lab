@@ -3,7 +3,7 @@ module.exports = {
   forbidden: [
     {
       name: 'no-circular',
-      severity: 'warn',
+      severity: 'error',
       comment:
         'This dependency is part of a circular relationship. You might want to revise ' +
         'your solution (i.e. use dependency inversion, make sure the modules have a single responsibility) ',
@@ -446,4 +446,4 @@ module.exports = {
     }
   }
 };
-// generated: dependency-cruiser@14.0.0 on 2023-09-29T17:46:15.981Z
+// generated: dependency-cruiser@14.0.0 on 2023-09-30T12:07:35.712Z

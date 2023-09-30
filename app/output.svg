@@ -18,8 +18,8 @@
 <g id="node1" class="node">
 <title>src/calc.ts</title>
 <g id="a_node1"><a xlink:href="src/calc.ts" xlink:title="calc.ts">
-<path fill="#ddfeff" stroke="black" d="M131,-34C131,-34 89,-34 89,-34 86,-34 83,-31 83,-28 83,-28 83,-22 83,-22 83,-19 86,-16 89,-16 89,-16 131,-16 131,-16 134,-16 137,-19 137,-22 137,-22 137,-28 137,-28 137,-31 134,-34 131,-34"/>
-<text text-anchor="start" x="95" y="-22.8" font-family="Helvetica,sans-Serif" font-size="9.00">calc.ts</text>
+<path fill="#ddfeff" stroke="black" d="M64,-34C64,-34 22,-34 22,-34 19,-34 16,-31 16,-28 16,-28 16,-22 16,-22 16,-19 19,-16 22,-16 22,-16 64,-16 64,-16 67,-16 70,-19 70,-22 70,-22 70,-28 70,-28 70,-31 67,-34 64,-34"/>
+<text text-anchor="start" x="28" y="-22.8" font-family="Helvetica,sans-Serif" font-size="9.00">calc.ts</text>
 </a>
 </g>
 </g>
@@ -27,16 +27,34 @@
 <g id="node2" class="node">
 <title>src/index.ts</title>
 <g id="a_node2"><a xlink:href="src/index.ts" xlink:title="index.ts">
-<path fill="#ddfeff" stroke="black" d="M64,-34C64,-34 22,-34 22,-34 19,-34 16,-31 16,-28 16,-28 16,-22 16,-22 16,-19 19,-16 22,-16 22,-16 64,-16 64,-16 67,-16 70,-19 70,-22 70,-22 70,-28 70,-28 70,-31 67,-34 64,-34"/>
-<text text-anchor="start" x="24.5" y="-22.8" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
+<path fill="#ddfeff" stroke="black" d="M131,-34C131,-34 89,-34 89,-34 86,-34 83,-31 83,-28 83,-28 83,-22 83,-22 83,-19 86,-16 89,-16 89,-16 131,-16 131,-16 134,-16 137,-19 137,-22 137,-22 137,-28 137,-28 137,-31 134,-34 131,-34"/>
+<text text-anchor="start" x="91.5" y="-22.8" font-family="Helvetica,sans-Serif" font-size="9.00">index.ts</text>
 </a>
 </g>
 </g>
-<!-- src/index.ts&#45;&gt;src/calc.ts -->
+<!-- src/calc.ts&#45;&gt;src/index.ts -->
 <g id="edge1" class="edge">
+<title>src/calc.ts&#45;&gt;src/index.ts</title>
+<g id="a_edge1"><a xlink:title="no&#45;circular">
+<path fill="none" stroke="red" stroke-width="2" d="M70.06,-20.58C70.2,-20.58 70.33,-20.57 70.46,-20.57"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="76.93,-22.67 82.93,-20.58 76.93,-18.47 76.93,-22.67"/>
+<polyline fill="none" stroke="red" stroke-width="2" points="76.93,-20.57 73.93,-20.57 "/>
+<ellipse fill="none" stroke="red" stroke-width="2" cx="71.53" cy="-20.57" rx="2.4" ry="2.4"/>
+</a>
+</g>
+<text text-anchor="middle" x="94.94" y="-13.37" font-family="Helvetica,sans-Serif" font-size="9.00" fill="red">no&#45;circular</text>
+</g>
+<!-- src/index.ts&#45;&gt;src/calc.ts -->
+<g id="edge2" class="edge">
 <title>src/index.ts&#45;&gt;src/calc.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M70.06,-25C72.32,-25 74.61,-25 76.9,-25"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="76.93,-27.1 82.93,-25 76.93,-22.9 76.93,-27.1"/>
+<g id="a_edge2"><a xlink:title="no&#45;circular">
+<path fill="none" stroke="red" stroke-width="2" d="M82.93,-29.42C82.8,-29.42 82.67,-29.43 82.53,-29.43"/>
+<polygon fill="red" stroke="red" stroke-width="2" points="76.07,-27.33 70.06,-29.42 76.06,-31.53 76.07,-27.33"/>
+<polyline fill="none" stroke="red" stroke-width="2" points="76.06,-29.43 79.06,-29.43 "/>
+<ellipse fill="none" stroke="red" stroke-width="2" cx="81.46" cy="-29.43" rx="2.4" ry="2.4"/>
+</a>
+</g>
+<text text-anchor="middle" x="58.06" y="-32.23" font-family="Helvetica,sans-Serif" font-size="9.00" fill="red">no&#45;circular</text>
 </g>
 </g>
 </svg>
