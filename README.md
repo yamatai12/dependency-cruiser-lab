@@ -23,11 +23,11 @@ dependency-cruiserのサンプル
 - dependency-cruiser
   install
   ```terminal
-  docker-compose run --rm app /bin/sh -c  "cd app && npm i --save-dev dependency-cruiser
+  npm i --save-dev dependency-cruiser
   ```
   config init
   ```terminal
-  docker-compose run --rm app /bin/sh -c  "cd app && npm npx depcruise --init
+  npm npx depcruise --init
   ```
   validate
   ```terminal
@@ -35,5 +35,5 @@ dependency-cruiserのサンプル
   ```
   visualize dependency-graph
   ```terminal
-  npx depcruise src --include-only "^src" --output-type dot | dot -T svg >
+  npx depcruise src --output-type dot | dot -T svg
   ```
